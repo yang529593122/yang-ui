@@ -12,6 +12,7 @@ import Switch from './switch'
 import CheckboxGroup from './checkbox-group'
 import Form from './form'
 import FormItem from './form-item'
+import YlItemImg from './item-img'
 import './fonts/font.scss'
 
 // 存储组件列表
@@ -25,7 +26,8 @@ const components = [
   Switch,
   CheckboxGroup,
   Form,
-  FormItem
+  FormItem,
+  YlItemImg
 ]
 const install = function (Vue) {
   // 全局注册所有的组件
