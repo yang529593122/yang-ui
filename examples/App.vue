@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-	<YlItemImg :imgurl="imgurl" :title="nihao" @handleClick="handleClick"></YlItemImg>
+	<YlItemImg :imgurl="imgurl" :title="title" @handleClick="handleClick"></YlItemImg>
 	
   </div>
 </template>
